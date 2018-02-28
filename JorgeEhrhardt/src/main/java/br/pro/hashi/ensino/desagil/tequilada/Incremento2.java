@@ -19,7 +19,7 @@ public class Incremento2 {
             
             
             while ((line = br.readLine()) != null) {
-                System.out.println(line.replaceAll("#", "X"));
+                System.out.println(line.replace("#", "X"));
             }
             
         } catch (IOException e) {
